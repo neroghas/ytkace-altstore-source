@@ -237,6 +237,10 @@ def validate_source(source: dict[str, Any], *, check_links: bool = False) -> Non
     for key in ("identifier", "sourceURL"):
         if not isinstance(source.get(key), str) or not source[key]:
             raise ValueError(f"Source field {key} is required")
+    if check_links:
+        with request(source["sourceURL"], method="HEAD") as response:
+            if response.status >= 400:
+                raise ValueError(f"Unavailable source URL: {source['sourceURL']}")
     apps = source.get("apps")
     if not isinstance(apps, list) or len(apps) != 1:
         raise ValueError("Source must contain exactly one app")
