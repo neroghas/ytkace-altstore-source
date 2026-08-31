@@ -1,0 +1,35 @@
+{
+  "name": "YTKACE Official Releases",
+  "identifier": "io.github.neroghas.ytkace-altstore-source",
+  "sourceURL": "https://raw.githubusercontent.com/neroghas/ytkace-altstore-source/main/source.json",
+  "apps": [
+    {
+      "name": "YTKACE",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "itzzace",
+      "subtitle": "Open-source YouTube enhancements for iOS.",
+      "localizedDescription": "Official YTKACE release IPAs for standalone installation with SideStore and older-version access from LiveContainer.",
+      "iconURL": "https://github.com/itzzace.png",
+      "tintColor": "#FF0000",
+      "versions": [
+        {
+          "version": "21.34.3",
+          "date": "2026-08-29T18:43:06Z",
+          "localizedDescription": "YTKACE 0.9.1\n\nWhat’s new:\n• Updated for YouTube 21.34.3\n• Added a default startup tab option, so YouTube can open on any tab you choose\n• Added a Shorts session limit that stops endless scrolling after a set number\n\nFixed:\n• Fixed Save to Photos silently doing nothing, and it now confirms when a video is saved\n• Fixed Save to Photos on large videos, and it now explains when Photos cannot store the format\n• Fixed backing up settings producing an empty file with nothing in it\n• Reduced feed scrolling lag from Remove Products, Shorts, Mixes and Community Posts\n\nYouTube 21.34.3 requires iOS 17, so there are two IPAs:\n• `YTKACE_0.9.1_YouTube_21.34.3.ipa` for iOS 17 and newer\n• `YTKACE_0.9.1_YouTube_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v0.9.1/YTKACE_0.9.1_YouTube_21.34.3.ipa",
+          "size": 133752298,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "21.33.6",
+          "date": "2026-08-23T01:02:28Z",
+          "localizedDescription": "YTKACE 0.9.0\n\n**What's new:**\n- Updated for YouTube 21.33.6\n- Playback Recovery has been rebuilt from scratch\n- Default playback speed is now a menu with Follow YouTube, Match last used, and Custom\n- Japanese is now selectable in the language list\n- Added an Audit section to the README covering what was checked and what was found\n\n**Fixed:**\n- Fixed SponsorBlock markers jumping to the top of the screen after switching in or out of fullscreen\n- Added missing playback speed strings to every non-English language, and translated the settings description that had only ever appeared in English",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v0.9.0/YTKACE_0.9.0_YouTube_21.33.6.ipa",
+          "size": 132473869,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
