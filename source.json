@@ -13,6 +13,14 @@
       "tintColor": "#FF0000",
       "versions": [
         {
+          "version": "21.38.3",
+          "date": "2026-09-26T01:16:21Z",
+          "localizedDescription": "YTKACE 1.1.0\n\nWhat's new:\n• Updated to YouTube 21.38.3\n• Redesigned the YTKACE library player with a floating mini player, PiP and YouTube style controls\n• SponsorBlock now skips segments in downloaded videos\n• New Download Method option with Direct downloads\n• Modify YouTube's video zoom\n• Keep Shorts in Subscriptions\n• Option to disable PiP for Shorts\n• Speed menu button\n• Options to disable HDR, remove 1080p Premium and set a separate Shorts speed\n• Layout mode option\n• Choose the subtitle language for downloads\n\nFixed:\n• PiP not working for music videos\n• Gap left by hidden comment guidelines, topic chips and community posts\n• Download and queue buttons on older YouTube versions\n• Autoplay in queues\n• Improved Playback Fix and download retrying\n\nThanks to @Ganeron11 and @kes158 for contributions\n\nYouTube 21.38.3 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.0_YouTube_21.38.3.ipa` for iOS 17 and newer\n• `YTKACE_1.1.0_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.0/YTKACE_1.1.0_YouTube_21.38.3.ipa",
+          "size": 137203351,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "21.38.2",
           "date": "2026-09-21T19:47:04Z",
           "localizedDescription": "YTKACE 1.0.1\n\nWhat's new:\n• Updated to YouTube 21.38.2\n• Download subtitles with your videos\n• Transcript button to copy or share a video's captions\n• Added toggle to Open videos paused instead of playing right away\n• Search bar in YTKACE settings\n\nFixed:\n• Crash on iOS 15\n• Prevent Open in Shorts doing nothing\n• Stop Autoplay doing nothing\n• Queue not appearing until the video was reopened\n• Captions turning off after Playback Fix recovers a video\n\nYouTube 21.38.2 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.0.1_YouTube_21.38.2.ipa` for iOS 17 and newer\n• `YTKACE_1.0.1_YouTube_iOS16_21.33.6.ipa` for iOS 16",
