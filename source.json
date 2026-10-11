@@ -13,6 +13,14 @@
       "tintColor": "#FF0000",
       "versions": [
         {
+          "version": "21.41.5",
+          "date": "2026-10-11T21:19:19Z",
+          "localizedDescription": "YTKACE 1.1.3\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+          "size": 137158764,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "21.40.5",
           "date": "2026-10-04T19:13:13Z",
           "localizedDescription": "YTKACE 1.1.2\n\nWhat's new:\n• Updated to YouTube 21.40.5\n• Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n• Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n• Playlist downloads now get the whole playlist, including private playlists and Liked videos\n• Liquid Glass tab bar is see-through while scrolling Shorts\n• Added Frosted Tab Bar option (Default, On, Off)\n• Added Normal Home Layout for the Home redesign some accounts get\n• Added Remove Horizontal Shelves\n• Added Hold to Copy Text for community posts and comments\n• Added Play Shorts Once\n• Added Two-Finger Tap to Pause\n• Added Extra Dim\n• Added Share at Current Time\n• Added Lock Screen Skip\n• Added Remove Suggestion Pill for Shorts\n• SponsorBlock skip popup now fades in and out\n\nFixed:\n• Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n• Captions On picking the wrong language\n• App opening in Shorts when a different start tab is set\n• White or black bar behind the Liquid Glass tab bar\n• Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16",
