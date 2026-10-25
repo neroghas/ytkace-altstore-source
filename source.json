@@ -13,6 +13,14 @@
       "tintColor": "#FF0000",
       "versions": [
         {
+          "version": "21.42.4",
+          "date": "2026-10-25T17:33:06Z",
+          "localizedDescription": "YTKACE 1.1.4\n\nWhat's new:\n• Updated to YouTube 21.42.4\n• Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n• Added Report AI Channels to report channels to AiSList from the ⋯ menu\n• Added Clean Copied Links to remove tracking like si= from links you copy or share\n• Added options to remove items from the ⋯ menu\n• Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n• Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n• Remove Previous/Next not working in playlists\n• Blank space left when fullscreen actions are hidden\n• Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_21.42.4.ipa",
+          "size": 138006169,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "21.41.5",
           "date": "2026-10-11T21:19:19Z",
           "localizedDescription": "YTKACE 1.1.3\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
